@@ -1,0 +1,26 @@
+{
+  "name": "Eyes Aren't Real",
+  "version": "2014.3.3",
+  "description": "Removes eyes from the internet",
+    "homepage_url": "http://github.com/mikemaccana",
+  "permissions": [
+    "tabs"
+  ],
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": ["js/superagent.js", "js/eyes.js"],
+      "run_at": "document_end"
+    }
+  ],
+    "icons": {
+    "16": "images/icons/icon16.png",
+    "48": "images/icons/icon48.png",
+    "128": "images/icons/icon128.png"
+  }
+}
+

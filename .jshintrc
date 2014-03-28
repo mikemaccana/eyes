@@ -1,0 +1,8 @@
+{
+  // Handle AMD modules
+  "predef": [
+    "define",
+    "require"
+  ],
+  "asi" : true // Tolerate Automatic Semicolon Insertion (no semicolons).
+}
