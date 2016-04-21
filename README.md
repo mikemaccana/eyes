@@ -6,7 +6,7 @@
 
 ## Install Instructions
 
- - Download the [Eyes Aren't Real zip file](https://github.com/mikemaccana/eyesarentreal/archive/master.zip) and extract it.
+ - Download the [Eyes Aren't Real zip file](https://github.com/mikemaccana/eyes/archive/master.zip) and extract it.
  - You'll need to [register for a rekognition.com starter plan](http://www.rekognition.com/user/create). This gives you, at the time of writing, 5000 free calls a month. By then you should be well and truly bored of this extension.
  - Get a [mashape.com](https://www.mashape.com/orbeus/face-and-scene-recognition-provided-by-rekognition-com) key too.
  - Pop the key, secret and mashape authozation key into `js/eyes.js`
